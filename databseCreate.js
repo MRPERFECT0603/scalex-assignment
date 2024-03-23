@@ -1,10 +1,12 @@
 const mongoose = require('mongoose');
 const TokenPair = require('./Models/tokenModel');
 const sampleData = require('./sample.json');
+require('dotenv').config();
+
 
 
 // Connect to MongoDB Atlas cluster
-mongoose.connect('mongodb+srv://vivekshaurya62:vivek@cluster0.wg3kk13.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(process.env.CONNECTION_STRING, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log('Connected to MongoDB Atlas');
 
