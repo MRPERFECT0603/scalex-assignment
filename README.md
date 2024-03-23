@@ -1,4 +1,4 @@
-#ScaleX
+# ScaleX
 # Backend Engineer Intern Task
 
 ## Project Overview
