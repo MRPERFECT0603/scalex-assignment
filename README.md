@@ -18,3 +18,4 @@ Thank you for considering this submission.
 **Best Regards,**  
 Vivek Shaurya
 9801096437
+Resume: [https://drive.google.com/file/d/1kUwhR20gwD2pWKY_ADRKzuAAjITj_JWI/view?usp=sharing]
